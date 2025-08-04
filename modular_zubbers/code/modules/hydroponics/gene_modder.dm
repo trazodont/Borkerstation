@@ -26,6 +26,9 @@
 	var/min_wchance = 67
 	var/min_wrate = 10
 
+/datum/plant_gene/
+	mutability_flags = PLANT_GENE_MUTATABLE | PLANT_GENE_GRAFTABLE | PLANT_GENE_REMOVABLE
+
 /datum/plant_gene/reagent
 	mutability_flags = PLANT_GENE_GRAFTABLE | PLANT_GENE_REMOVABLE
 
